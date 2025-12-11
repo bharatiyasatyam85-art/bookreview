@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(233, 222, 172);
+}
+
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+     background-color: rgb(241, 254, 67);
+    border-bottom: 2px solid black;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    height: 77px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    color: rgb(42, 1, 204);
+    font-weight: 600;
+    font-size: 18px; 
+    transition: 0.3s ease;
+}
+
+/* Hover & Active */
+nav ul li a:hover
+ {
+    background: rgb(245, 31, 31);
+    color: white;
+    border-radius: 5px;
+}
+
+/* REVIEW FORM BOX */
+.review-box {
+    width: 60%;
+    background: white;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+}
+.review-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-box input,
+.review-box textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.review-box textarea {
+    height: 120px;
+}
+
+.review-box button {
+    width: 180px;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(17, 17, 17);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.review-box button:hover {
+    background: rgb(237, 47, 47);
+}
+
+/* DISPLAY REVIEWS */
+.all-reviews {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.review-card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px gray;
+}
+
+.review-card h3 {
+    margin-bottom: 5px;
+}
+
+.review-card span {
+    font-size: 14px;
+    color: gray;
+}
